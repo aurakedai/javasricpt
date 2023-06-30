@@ -1,6 +1,8 @@
-// !ini adalah contoh comment
+//?belajar scope
+myFunction = () => {
+    console.log("mama");
 
-/**ini juga contoh comment 
-yang terdiri dari beberapa baris**/
 
-console.log("hello word");
+}
+
+myFunction();
